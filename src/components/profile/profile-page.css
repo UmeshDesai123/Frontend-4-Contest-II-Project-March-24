@@ -1,0 +1,22 @@
+.profile-page{
+  color: aliceblue;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.image-wrapper{
+  height: 150px;
+  width: 100px;
+  border: 2px solid grey;
+  background-color: gray;
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
